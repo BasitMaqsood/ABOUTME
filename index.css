@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40,180,133, 0.8)), url(./images/banner2.jpg);
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+}
+
+.banner .navbar{
+    margin-top: 4%;
+}
+
+.banner .navbar-brand{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 4%;
+}
+
+.banner .nav{
+    margin-right: 10%;
+}
+
+.banner .nav li a{
+    color: #fff;
+    font-weight: 1.2em;
+}
+
+.banner .info{
+    margin-top: 15%;
+    transform: translateY(-15%);
+}
+
+.banner .info h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.banner .info p{
+    font-size: 2em;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.banner .info a{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color:  #2C6700;
+    background-color: #E5E4D7;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.banner .info a:hover{
+    background-color: #FFCF79;
+}

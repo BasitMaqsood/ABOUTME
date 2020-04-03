@@ -70,3 +70,41 @@ body{
 .banner .info a:hover{
     background-color: #FFCF79;
 }
+
+.card-text-styling-primary{
+    color: black;
+    font-weight: 600;
+}
+
+.card-text-styling{
+    color: black;
+}
+
+
+.buttons-size-full{
+    width: 100%;
+    height: 100%;
+}
+
+
+.divider{
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.small-divider{
+    margin-top: 3%;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+
+}
